@@ -7,7 +7,10 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\SubCategoryController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\UnitController;
-
+use App\Http\Controllers\ColorController;
+use App\Http\Controllers\SizeController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ProductOfferController;
 use App\Http\Controllers\RedRoseController;
 
 use App\Http\Controllers\DashboardController;
@@ -38,4 +41,10 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified',
     Route::resource('brand', BrandController::class);
     //Resource Route for unit Controller
     Route::resource('unit', UnitController::class);
+
+    Route::resource('color', ColorController::class);
+    Route::resource('size', SizeController::class);
+    Route::resource('product', ProductController::class);
+
+    Route::resource('product_offer', ProductOfferController::class);
 });

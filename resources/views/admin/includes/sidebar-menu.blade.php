@@ -36,8 +36,8 @@
                     </a>
                     <ul class="slide-menu">
                         <li class="side-menu-label1"><a href="javascript:void(0)">Forms</a></li>
-                        <li><a href="" class="slide-item">Add Category</a></li>
-                        <li><a href="" class="slide-item">Manage Category</a></li>
+                        <li><a href="{{route('category.create') }}" class="slide-item">Add Category</a></li>
+                        <li><a href="{{route('category.index') }}" class="slide-item">Manage Category</a></li>
 
                     </ul>
                 </li>
@@ -47,8 +47,8 @@
                         <span class="side-menu__label">Sub Category Module</span><i class="angle fa fa-angle-right"></i></a>
                     <ul class="slide-menu">
                         <li class="side-menu-label1"><a href="javascript:void(0)">Tables</a></li>
-                        <li><a href="" class="slide-item">Add Sub Category</a></li>
-                        <li><a href="" class="slide-item">Manage Sub Category</a></li>
+                        <li><a href="{{route('sub-category.create') }}" class="slide-item">Add Sub Category</a></li>
+                        <li><a href="{{route('sub-category.index') }}" class="slide-item">Manage Sub Category</a></li>
 
                     </ul>
                 </li>
@@ -61,8 +61,8 @@
                         <span class="side-menu__label">Brand Module</span><i class="angle fa fa-angle-right"></i></a>
                     <ul class="slide-menu">
                         <li class="side-menu-label1"><a href="javascript:void(0)">Charts</a></li>
-                        <li><a href="" class="slide-item"> Add Brand  </a></li>
-                        <li><a href="" class="slide-item"> Manage Brand </a></li>
+                        <li><a href="{{route('brand.create') }}" class="slide-item"> Add Brand  </a></li>
+                        <li><a href="{{route('brand.index') }}" class="slide-item"> Manage Brand </a></li>
 
                     </ul>
                 </li>
@@ -72,8 +72,8 @@
                         <span class="side-menu__label">Unit Module</span><i class="angle fa fa-angle-right"></i></a>
                     <ul class="slide-menu">
                         <li class="side-menu-label1"><a href="javascript:void(0)">Icons</a></li>
-                        <li><a href="" class="slide-item">Add Unit</a></li>
-                        <li><a href="" class="slide-item">Manage Unit</a></li>
+                        <li><a href="{{route('unit.create') }}" class="slide-item">Add Unit</a></li>
+                        <li><a href="{{route('unit.index') }}" class="slide-item">Manage Unit</a></li>
 
                     </ul>
                 </li>
@@ -83,8 +83,8 @@
                         <span class="side-menu__label">Color Module</span><i class="angle fa fa-angle-right"></i></a>
                     <ul class="slide-menu">
                         <li class="side-menu-label1"><a href="javascript:void(0)">Maps</a></li>
-                        <li><a href="" class="slide-item">Add Color </a></li>
-                        <li><a href="" class="slide-item">Manage Color </a></li>
+                        <li><a href="{{route('color.create') }}" class="slide-item">Add Color </a></li>
+                        <li><a href="{{route('color.index') }}" class="slide-item">Manage Color </a></li>
 
                     </ul>
                 </li>
@@ -97,8 +97,8 @@
                     </a>
                     <ul class="slide-menu">
                         <li class="side-menu-label1"><a href="javascript:void(0)">Apps</a></li>
-                        <li><a href="" class="slide-item">Add Size</a></li>
-                        <li><a href="" class="slide-item">Manage Size</a></li>
+                        <li><a href="{{route('size.create') }}" class="slide-item">Add Size</a></li>
+                        <li><a href="{{route('size.index') }}" class="slide-item">Manage Size</a></li>
 
                     </ul>
                 </li>
@@ -110,9 +110,9 @@
                     </a>
                     <ul class="slide-menu">
                         <li class="side-menu-label1"><a href="javascript:void(0)">UI Elements</a></li>
-                        <li><a href="" class="slide-item">Add Product</a></li>
-                        <li><a href="" class="slide-item">Manage Product</a></li>
-                        <li><a href="" class="slide-item">Manage Product Offer</a></li>
+                        <li><a href="{{route('product.create') }}" class="slide-item">Add Product</a></li>
+                        <li><a href="{{route('product.index') }}" class="slide-item">Manage Product</a></li>
+                        <li><a href="{{route('product_offer.index') }}" class="slide-item">Manage Product Offer</a></li>
                     </ul>
                 </li>
 
